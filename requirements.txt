@@ -1,0 +1,5 @@
+requests>=2.20.0
+# Note: OpenCV and face recognition libraries may need to be installed separately
+# For OpenCV: pip install opencv-python
+# For face recognition: pip install face-recognition (requires cmake, dlib)
+# Alternative: use system packages or conda for easier installation
