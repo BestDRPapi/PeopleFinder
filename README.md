@@ -27,9 +27,16 @@ git clone https://github.com/BestDRPapi/PeopleFinder.git
 cd PeopleFinder
 ```
 
-2. Install required Python packages:
+2. Run the setup script (recommended):
 ```bash
-pip install -r requirements.txt
+python setup.py
+```
+
+Or install manually:
+```bash
+pip install requests
+# Optional for full functionality:
+pip install opencv-python face-recognition numpy pillow
 ```
 
 3. Configure the application by editing `config.ini`:
